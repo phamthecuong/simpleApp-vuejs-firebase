@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png">
-    <router-view/> -->
+      <div><img src="./assets/logo.png" alt=""> <img src="./assets/firebase.png" alt=""> </div>
       <div class="container">
         <h2 class="title-app">App simple vuejs with firebase</h2>
         <div></div>
@@ -23,7 +22,6 @@
         </form>
       </div>
       <hr>
-      
     <div class="container">
       <h2>List books</h2>
       <table class="table">
@@ -51,8 +49,6 @@
       
   </div>
 </template>
-
-
 
 <script>
 import Firebase from 'firebase';
@@ -111,9 +107,9 @@ export default {
   .table thead tr th {
       text-align: center;
     }
-    .title-app {
-      padding-bottom: 32px;
-      color: chocolate;
-    }
+  .title-app {
+    padding-bottom: 32px;
+    color: chocolate;
+  }
 </style>
 

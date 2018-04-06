@@ -7,6 +7,7 @@ import vueFire from 'vuefire';
 Vue.use(vueFire);
 
 Vue.config.productionTip = false
+const abc = 'abc';
 
 /* eslint-disable no-new */
 new Vue({
